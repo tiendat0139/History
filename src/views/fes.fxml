@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" styleClass="container" stylesheets="@../assets/css/home.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.festival.FestivalController">
+   <left>
+      <VBox alignment="TOP_CENTER" prefHeight="768.0" prefWidth="241.0" styleClass="side-bar" stylesheets="@../assets/css/home.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="116.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/img/trongdong.png" />
+               </image>
+            </ImageView>
+
+                  <HBox alignment="TOP_CENTER" prefWidth="200.0" spacing="5.0" styleClass="side-bar_logo" stylesheets="@../assets/css/home.css">
+               <children>
+                  <Label text="Lịch sử" textFill="#823a17">
+                     <font>
+                        <Font name="Cambria Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label text="Việt Nam" textFill="#823a17">
+                     <font>
+                        <Font name="Cambria Bold" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="40.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToPersonPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/img/person-outline.png" />
+                           </image>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </ImageView>
+                        <Label text="Nhân vật" textFill="#823a17">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToSitePage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/img/home-outline.png" />
+                           </image>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </ImageView>
+                        <Label text="Di tích" textFill="#823a17">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToFesPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" stylesheets="@../assets/css/home.css">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/img/flag-outline.png" />
+                           </image>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </ImageView>
+                        <Label text="Lễ hội" textFill="#823a17">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <styleClass>
+                        <String fx:value="side-bar_item" />
+                        <String fx:value="side-bar_active_item" />
+                     </styleClass>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToEventPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/img/calendar-outline.png" />
+                           </image>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </ImageView>
+                        <Label text="Sự kiện" textFill="#823a17">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToPeriodPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/img/hourglass-outline.png" />
+                           </image>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </ImageView>
+                        <Label text="Thời kỳ" textFill="#823a17">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets right="20.0" top="30.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="40.0" top="40.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="592.0" prefWidth="482.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_RIGHT" maxWidth="-Infinity" prefHeight="54.0" prefWidth="445.0" stylesheets="@../assets/css/home.css">
+               <children>
+                  <TextField fx:id="searchInput" prefHeight="40.0" prefWidth="312.0" promptText="Nhân vật, di tích,..." styleClass="search-input" stylesheets="@../assets/css/home.css">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Button mnemonicParsing="false" onMouseClicked="#handleClickSearchButton" prefHeight="37.0" prefWidth="110.0" styleClass="search-button" stylesheets="@../assets/css/home.css" text="Tìm kiếm" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <styleClass>
+                  <String fx:value="search-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </HBox>
+            <ScrollPane fx:id="srcollPane" prefHeight="584.0" prefWidth="382.0">
+               <content>
+                  <GridPane fx:id="gridPane" alignment="TOP_CENTER" hgap="40.0" prefHeight="10.0" prefWidth="23.0" vgap="20.0">
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                     </rowConstraints>
+                     <padding>
+                        <Insets left="40.0" right="30.0" />
+                     </padding>
+                  </GridPane>
+               </content>
+               <VBox.margin>
+                  <Insets top="60.0" />
+               </VBox.margin>
+            </ScrollPane>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets top="40.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

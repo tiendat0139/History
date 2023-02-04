@@ -1,0 +1,70 @@
+.container {
+    -fx-background-color: #e6ded2;
+}
+.picker-color {
+    -fx-border-color:white ;
+    -fx-border-width:40;
+}
+.side-bar {
+    -fx-border-width: 1px;
+    -fx-border-color: rgba(0,0,0,0.04);
+}
+.side-bar_logo {
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-width: 1px;
+    -fx-border-color: rgba(0,0,0,0.04);
+}
+
+.side-bar_item:hover{
+    -fx-background-color: #eadac8;
+    -fx-background-radius: 10;
+}
+.side-bar_active_item {
+    -fx-background-color: #e3cfb6;
+    -fx-background-radius: 10;
+}
+.search-button {
+    -fx-background-color: #823a17;
+    -fx-background-radius: 50;
+}
+.search-button:hover {
+    -fx-opacity: 0.8;
+}
+.search-input {
+    -fx-background-color: rgba(0,0,0,0);
+}
+.search-box{
+    -fx-background-color: #fff;
+    -fx-background-radius: 50;
+}
+.shadow {
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.1), 5.0, 0, 0, 5.0);
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.detail-box {
+     -fx-border-style: hidden hidden hidden solid;
+     -fx-border-width: 1px;
+     -fx-border-color: rgba(0,0,0,0.04);
+}
+
+.card {
+    -fx-border-width: 1px;
+    -fx-border-color: #823a17;
+    -fx-background-color: #e6ded2;
+    -fx-border-radius: 2px;
+}
+.card:hover {
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.1), 5.0, 0, 0, 5.0);
+    -fx-translate-x: -2px;
+    -fx-translate-y: -2px;
+}
+
