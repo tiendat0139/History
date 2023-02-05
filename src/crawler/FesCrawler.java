@@ -24,7 +24,7 @@ public class FesCrawler extends Crawler {
                 String location = row.child(1).text();
                 String name = row.child(2).text();
                 String firstDate = row.child(3).text();
-                String[] persons = null;
+                String[] persons = {};
                 if (!row.child(4).text().equals("")) {
                     persons = row.child(4).text().split(",");
                     for (int i = 0; i < persons.length; i++) {

@@ -21,7 +21,8 @@
     "tenLeHoi": "Hội vật Liễu Đôi",
     "ngayBatDau": "5/1",
     "lanDauToChuc": "",
-    "diaDiem": "Hà Nam, huyện Thanh Liêm"
+    "diaDiem": "Hà Nam, huyện Thanh Liêm",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "hội Gióng Sóc Sơn",
@@ -45,19 +46,22 @@
     "tenLeHoi": "Lễ hội chùa Bái Đính",
     "ngayBatDau": "6/1",
     "lanDauToChuc": "Nhà Lý",
-    "diaDiem": "Ninh Bình, Gia Viễn"
+    "diaDiem": "Ninh Bình, Gia Viễn",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Chợ Viềng",
     "ngayBatDau": "7/1",
     "lanDauToChuc": "Nhà Trần",
-    "diaDiem": "Nam Định, Vụ Bản"
+    "diaDiem": "Nam Định, Vụ Bản",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội đầm Ô Loan",
     "ngayBatDau": "7/1",
     "lanDauToChuc": "",
-    "diaDiem": "Phú Yên, Ô Loan"
+    "diaDiem": "Phú Yên, Ô Loan",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Đại lễ Đức Chí Tôn",
@@ -129,13 +133,15 @@
     "tenLeHoi": "Tết Nguyên tiêu",
     "ngayBatDau": "15/1",
     "lanDauToChuc": "",
-    "diaDiem": "Nhiều quốc gia"
+    "diaDiem": "Nhiều quốc gia",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội chọi trâu",
     "ngayBatDau": "16/1",
     "lanDauToChuc": "thế kỷ 2 trước CN",
-    "diaDiem": "Vĩnh Phúc, huyện Lập Thạch"
+    "diaDiem": "Vĩnh Phúc, huyện Lập Thạch",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Hội Xuân núi Bà",
@@ -179,13 +185,15 @@
     "tenLeHoi": "Tiết Thanh minh",
     "ngayBatDau": "",
     "lanDauToChuc": "Nhà Thanh",
-    "diaDiem": ""
+    "diaDiem": "",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Hội đua voi",
     "ngayBatDau": "",
     "lanDauToChuc": "",
-    "diaDiem": "Tây Nguyên"
+    "diaDiem": "Tây Nguyên",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Tết Hàn thực",
@@ -306,13 +314,15 @@
     "tenLeHoi": "Lễ hội Chol Chnam Thmay",
     "ngayBatDau": "14/4",
     "lanDauToChuc": "",
-    "diaDiem": "Nam Bộ"
+    "diaDiem": "Nam Bộ",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ khao lề thế lính",
     "ngayBatDau": "18/3",
     "lanDauToChuc": "",
-    "diaDiem": "Quảng Ngãi, huyện Lý Sơn"
+    "diaDiem": "Quảng Ngãi, huyện Lý Sơn",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội miếu Bà Chúa Xứ",
@@ -327,7 +337,8 @@
     "tenLeHoi": "Tết Đoan ngọ",
     "ngayBatDau": "5/5",
     "lanDauToChuc": "",
-    "diaDiem": "Nhiều quốc gia"
+    "diaDiem": "Nhiều quốc gia",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Thất Tịch",
@@ -352,19 +363,22 @@
     "tenLeHoi": "Lễ hội Nghinh Ông (Quan Thánh Đế Quân)",
     "ngayBatDau": "",
     "lanDauToChuc": "",
-    "diaDiem": "Phan Thiết (Bình Thuận)"
+    "diaDiem": "Phan Thiết (Bình Thuận)",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội Katê",
     "ngayBatDau": "",
     "lanDauToChuc": "",
-    "diaDiem": "Bình Thuận"
+    "diaDiem": "Bình Thuận",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội chọi trâu",
     "ngayBatDau": "9/8",
     "lanDauToChuc": "",
-    "diaDiem": "Hải Phòng, Đồ Sơn"
+    "diaDiem": "Hải Phòng, Đồ Sơn",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Tết Trung Thu",
@@ -403,7 +417,8 @@
     "tenLeHoi": "Lễ hội Nghinh Ông (Cá Voi)",
     "ngayBatDau": "",
     "lanDauToChuc": "",
-    "diaDiem": "Bình Thuận, Tiền Giang"
+    "diaDiem": "Bình Thuận, Tiền Giang",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội AHDT Nguyễn Trung Trực",
@@ -427,7 +442,8 @@
     "tenLeHoi": "Tết cơm mới",
     "ngayBatDau": "15/10",
     "lanDauToChuc": "",
-    "diaDiem": "Nhiều quốc gia"
+    "diaDiem": "Nhiều quốc gia",
+    "tenNhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội đền Nguyễn Công Trứ",

@@ -33,7 +33,7 @@ public class PlaceCrawler extends Crawler{
                         Elements headerElements = detailDoc.select(".divide-line");
                         for (Element headerElement : headerElements) {
                             String title = headerElement.text();
-                            if (title.contains("Diễn biến")) {
+                            if (title.contains("Diễn biễn")) {
                                 dienBien = Objects.requireNonNull(headerElement.nextElementSibling()).ownText();
                             }
                             if (title.contains("Sự kiện")) {
