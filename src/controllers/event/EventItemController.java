@@ -8,6 +8,8 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import models.Event;
+import models.Person;
+import models.Place;
 
 import java.io.IOException;
 
@@ -17,14 +19,14 @@ public class EventItemController {
     @FXML
     private Label nameLabel;
 
-    private Event event;
+    private Event<Person, Place> event;
 
-    public void setData(Event event) {
+    public void setData(Event<Person, Place> event) {
         this.event = event;
         nameLabel.setText(event.getTenSuKien());
     }
 
-    public Event getEvent() {
+    public Event<Person, Place> getEvent() {
         return event;
     }
 

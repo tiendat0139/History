@@ -2,21 +2,19 @@ package models;
 
 import java.util.List;
 
-public class Event {
+public class Event<T, U> {
     private String tenSuKien;
     private String thoiGian;
     private String dienBien;
-    private String tenDiaDiem;
-    private List<String> tenNhanVat;
-    private List<Person> nhanVat;
-    private Place diaDiem;
+    private List<T> nhanVat;
+    private U diaDiem;
 
-    public Event(String tenSuKien, String thoiGian, String tenDiaDiem, String dienBien, List<String> tenNhanVat) {
+    public Event(String tenSuKien, String thoiGian, U diaDiem, String dienBien, List<T> nhanVat) {
         this.tenSuKien = tenSuKien;
         this.thoiGian = thoiGian;
-        this.tenDiaDiem = tenDiaDiem;
+        this.diaDiem = diaDiem;
         this.dienBien = dienBien;
-        this.tenNhanVat = tenNhanVat;
+        this.nhanVat = nhanVat;
     }
 
     public String getTenSuKien() {
@@ -27,23 +25,15 @@ public class Event {
         return thoiGian;
     }
 
-    public String getTenDiaDiem() {
-        return tenDiaDiem;
-    }
-
     public String getDienBien() {
         return dienBien;
     }
 
-    public List<String> getTenNhanVat() {
-        return tenNhanVat;
-    }
-
-    public List<Person> getNhanVat() {
+    public List<T> getNhanVat() {
         return nhanVat;
     }
 
-    public Place getDiaDiem() {
+    public U getDiaDiem() {
         return diaDiem;
     }
 
@@ -55,23 +45,15 @@ public class Event {
         this.thoiGian = thoiGian;
     }
 
-    public void setTenDiaDiem(String tenDiaDiem) {
-        this.tenDiaDiem = tenDiaDiem;
-    }
-
     public void setDienBien(String dienBien) {
         this.dienBien = dienBien;
     }
 
-    public void setTenNhanVat(List<String> tenNhanVat) {
-        this.tenNhanVat = tenNhanVat;
-    }
-
-    public void setNhanVat(List<Person> nhanVat) {
+    public void setNhanVat(List<T> nhanVat) {
         this.nhanVat = nhanVat;
     }
 
-    public void setDiaDiem(Place diaDiem) {
+    public void setDiaDiem(U diaDiem) {
         this.diaDiem = diaDiem;
     }
 }

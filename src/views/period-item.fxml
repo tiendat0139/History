@@ -11,7 +11,7 @@
     <children>
         <VBox alignment="TOP_CENTER" layoutX="3.0" prefHeight="70.0" prefWidth="194.0" spacing="15.0">
             <children>
-                <Label fx:id="nameLabel" text="Chủ tịch Hồ Chí Minh" textFill="#823a17">
+                <Label fx:id="nameLabel" text="Chủ tịch Hồ Chí Minh" textFill="#823a17" wrapText="true">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>

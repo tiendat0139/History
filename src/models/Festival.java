@@ -2,20 +2,19 @@ package models;
 
 import java.util.List;
 
-public class Festival {
+public class Festival<T> {
     private String tenLeHoi;
     private String ngayBatDau;
     private String lanDauToChuc;
     private String diaDiem;
-    private List<String> tenNhanVat;
-    private List<Person> nhanVat;
+    private List<T> nhanVat;
 
-    public Festival(String tenLeHoi, String ngayBatDau, String lanDauToChuc, String diaDiem, List<String> tenNhanVat) {
+    public Festival(String tenLeHoi, String ngayBatDau, String lanDauToChuc, String diaDiem, List<T> nhanVat) {
         this.tenLeHoi = tenLeHoi;
         this.ngayBatDau = ngayBatDau;
         this.lanDauToChuc = lanDauToChuc;
         this.diaDiem = diaDiem;
-        this.tenNhanVat = tenNhanVat;
+        this.nhanVat = nhanVat;
     }
 
     public String getTenLeHoi() {
@@ -34,11 +33,7 @@ public class Festival {
         return diaDiem;
     }
 
-    public List<String> getTenNhanVat() {
-        return tenNhanVat;
-    }
-
-    public List<Person> getNhanVat() {
+    public List<T> getNhanVat() {
         return nhanVat;
     }
 
@@ -58,11 +53,7 @@ public class Festival {
         this.diaDiem = diaDiem;
     }
 
-    public void setTenNhanVat(List<String> tenNhanVat) {
-        this.tenNhanVat = tenNhanVat;
-    }
-
-    public void setNhanVat(List<Person> nhanVat) {
+    public void setNhanVat(List<T> nhanVat) {
         this.nhanVat = nhanVat;
     }
 }

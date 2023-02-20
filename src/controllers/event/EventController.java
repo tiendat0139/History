@@ -1,6 +1,7 @@
 package controllers.event;
 
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import controllers.LayoutController;
 import controllers.ListPage;
 import javafx.fxml.FXML;
@@ -18,46 +19,50 @@ import utils.MatchingData;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class EventController extends LayoutController implements Initializable, ListPage<Event> {
+public class EventController extends LayoutController implements Initializable, ListPage<Event<Person, Place>> {
 
-    private List<Event> events = new ArrayList<>();
+    private List<Event<Person, Place>> events = new ArrayList<>();
 
-    public void setEvents(List<Event> events) {
+    private static final Type EVENT_LIST_TYPE = new TypeToken<List<Event<String, String>>>(){}.getType();
+
+
+    public void setEvents(List<Event<Person, Place>> events) {
         this.events = events;
     }
 
     @Override
     public void getData() {
         Gson gson = new Gson();
-        Event[] list;
         try {
             FileReader reader = new FileReader("src/data/sukien.json");
-            list = gson.fromJson(reader, Event[].class);
-            List<Event> eventList = Arrays.asList(list);
-            setEvents(eventList);
-            for (Event event : eventList) {
-                List<Person> relatedPerson = MatchingData.getRelatedPerson(event.getTenNhanVat());
-                Place place = MatchingData.getRelatedPlace(event.getTenDiaDiem());
-                event.setNhanVat(relatedPerson);
-                event.setDiaDiem(place);
+            List<Event<String, String>> events1 = gson.fromJson(reader, EVENT_LIST_TYPE);
+            List<Event<Person, Place>> events2 = new ArrayList<>();
+            System.out.println(events1.get(0).getTenSuKien());
+            for (Event<String, String> event : events1) {
+                List<Person> relatedPerson = MatchingData.getRelatedPerson(event.getNhanVat());
+                Place place = MatchingData.getRelatedPlace(event.getDiaDiem());
+                Event<Person, Place> eventItem = new Event<>(event.getTenSuKien(), event.getThoiGian(),
+                        place, event.getDienBien(),relatedPerson);
+                events2.add(eventItem);
             }
+            setEvents(events2);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
 
     @Override
-    public void showList(List<Event> eventList) {
+    public void showList(List<Event<Person, Place>> eventList) {
         int col = 0;
         int row = 1;
         try {
-            for (Event event: eventList) {
+            for (Event<Person, Place> event: eventList) {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource("/views/event-item.fxml"));
                 AnchorPane anchorPane = fxmlLoader.load();
@@ -79,8 +84,8 @@ public class EventController extends LayoutController implements Initializable, 
     @FXML
     public void handleClickSearchButton(MouseEvent e) {
         String textInput = searchInput.getText().toLowerCase();
-        List<Event> searchList = new ArrayList<>();
-        for (Event event : events) {
+        List<Event<Person, Place>> searchList = new ArrayList<>();
+        for (Event<Person, Place> event : events) {
             if (event.getTenSuKien().toLowerCase().contains(textInput.toLowerCase())) {
                 searchList.add(event);
             }

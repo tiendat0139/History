@@ -44,7 +44,7 @@
                 </HBox>
                 <VBox prefWidth="100.0">
                     <children>
-                        <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToPersonPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" stylesheets="@../assets/css/home.css">
+                        <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToPersonPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
                             <children>
                                 <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -66,12 +66,8 @@
                             <cursor>
                                 <Cursor fx:constant="HAND" />
                             </cursor>
-                            <styleClass>
-                                <String fx:value="side-bar_item" />
-                                <String fx:value="side-bar_active_item" />
-                            </styleClass>
                         </HBox>
-                        <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToSitePage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
+                        <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToSitePage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" stylesheets="@../assets/css/home.css">
                             <children>
                                 <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -96,6 +92,10 @@
                             <cursor>
                                 <Cursor fx:constant="HAND" />
                             </cursor>
+                     <styleClass>
+                        <String fx:value="side-bar_item" />
+                        <String fx:value="side-bar_active_item" />
+                     </styleClass>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" onMouseClicked="#handleLinkToFesPage" prefHeight="60.0" prefWidth="200.0" spacing="8.0" styleClass="side-bar_item" stylesheets="@../assets/css/home.css">
                             <children>

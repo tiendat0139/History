@@ -32,7 +32,7 @@ public class FesCrawler extends Crawler {
                     }
                 }
 
-                Festival item = new Festival(name, date, firstDate, location, Arrays.asList(persons));
+                Festival<String> item = new Festival(name, date, firstDate, location, Arrays.asList(persons));
                 list.add(item);
             }
             String fileName = "src/data/lehoi.json";

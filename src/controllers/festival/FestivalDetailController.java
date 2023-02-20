@@ -2,10 +2,9 @@ package controllers.festival;
 
 import controllers.DetailController;
 import javafx.application.Platform;
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.layout.GridPane;
 import models.Festival;
+import models.Person;
 import utils.CreateNode;
 
 import java.net.URL;
@@ -13,9 +12,9 @@ import java.util.ResourceBundle;
 
 public class FestivalDetailController extends DetailController implements Initializable {
 
-    private Festival festival;
+    private Festival<Person> festival;
 
-    public void setFestival(Festival festival) {
+    public void setFestival(Festival<Person> festival) {
         this.festival = festival;
     }
 

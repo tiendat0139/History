@@ -4,7 +4,7 @@
     "ngayBatDau": "Ngày bắt đầu (âm lịch)",
     "lanDauToChuc": "Lần đầu tổ chức năm",
     "diaDiem": "Vị trí",
-    "tenNhanVat": [
+    "nhanVat": [
       "Nhân vật liên quan"
     ]
   },
@@ -13,7 +13,7 @@
     "ngayBatDau": "5/1",
     "lanDauToChuc": "",
     "diaDiem": "Hà Nội, quận Đống Đa",
-    "tenNhanVat": [
+    "nhanVat": [
       "Nguyễn Huệ"
     ]
   },
@@ -22,14 +22,14 @@
     "ngayBatDau": "5/1",
     "lanDauToChuc": "",
     "diaDiem": "Hà Nam, huyện Thanh Liêm",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "hội Gióng Sóc Sơn",
     "ngayBatDau": "6/1",
     "lanDauToChuc": "Nhà Tiền Lê",
     "diaDiem": "Hà Nội, Sóc Sơn",
-    "tenNhanVat": [
+    "nhanVat": [
       "Thánh Gióng"
     ]
   },
@@ -38,7 +38,7 @@
     "ngayBatDau": "6/1",
     "lanDauToChuc": "",
     "diaDiem": "Hà Nội, Đông Anh",
-    "tenNhanVat": [
+    "nhanVat": [
       "An Dương Vương"
     ]
   },
@@ -47,28 +47,28 @@
     "ngayBatDau": "6/1",
     "lanDauToChuc": "Nhà Lý",
     "diaDiem": "Ninh Bình, Gia Viễn",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Chợ Viềng",
     "ngayBatDau": "7/1",
     "lanDauToChuc": "Nhà Trần",
     "diaDiem": "Nam Định, Vụ Bản",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội đầm Ô Loan",
     "ngayBatDau": "7/1",
     "lanDauToChuc": "",
     "diaDiem": "Phú Yên, Ô Loan",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Đại lễ Đức Chí Tôn",
     "ngayBatDau": "9/1",
     "lanDauToChuc": "",
     "diaDiem": "Tây Ninh, Đạo Cao Đài",
-    "tenNhanVat": [
+    "nhanVat": [
       "Đức Chí Tôn"
     ]
   },
@@ -77,7 +77,7 @@
     "ngayBatDau": "10/1",
     "lanDauToChuc": "thế kỷ 14",
     "diaDiem": "Quảng Ninh, núi Yên Tử",
-    "tenNhanVat": [
+    "nhanVat": [
       "Trần Nhân Tông"
     ]
   },
@@ -86,9 +86,12 @@
     "ngayBatDau": "13/1",
     "lanDauToChuc": "gần đây",
     "diaDiem": "Phú Thọ, huyện Tam Nông",
-    "tenNhanVat": [
+    "nhanVat": [
       "Thiều Hoa công chúa",
-      "Mộc trang đại vương"
+      "tứ vị đại tần họ Hà (Hà hắc Long",
+      "Hà hiên Cương",
+      "Hà thổ Lân và Hà sơn Thắng )",
+      "hai tướng công : Buì thạch Đa và Bùi thạch Đê ."
     ]
   },
   {
@@ -96,7 +99,7 @@
     "ngayBatDau": "13/1",
     "lanDauToChuc": "Nhà Lê sơ",
     "diaDiem": "Bắc Ninh, huyện Tiên Du",
-    "tenNhanVat": [
+    "nhanVat": [
       "Nguyễn Đình Diễn"
     ]
   },
@@ -105,7 +108,7 @@
     "ngayBatDau": "6/1",
     "lanDauToChuc": "",
     "diaDiem": "Hà Nội, huyện Mỹ Đức",
-    "tenNhanVat": [
+    "nhanVat": [
       "Quan Thế Âm Bồ Tát"
     ]
   },
@@ -114,7 +117,7 @@
     "ngayBatDau": "15/1",
     "lanDauToChuc": "từ thế kỷ 14",
     "diaDiem": "Hải Dương, huyện Chí Linh",
-    "tenNhanVat": [
+    "nhanVat": [
       "Huyền Quang",
       "Nguyễn Trãi"
     ]
@@ -124,7 +127,7 @@
     "ngayBatDau": "14/1",
     "lanDauToChuc": "năm 1878",
     "diaDiem": "Long An, thị trấn Tầm Vu",
-    "tenNhanVat": [
+    "nhanVat": [
       "Đỗ Tường Phong",
       "Đỗ Tường Tự"
     ]
@@ -134,21 +137,21 @@
     "ngayBatDau": "15/1",
     "lanDauToChuc": "",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội chọi trâu",
     "ngayBatDau": "16/1",
     "lanDauToChuc": "thế kỷ 2 trước CN",
     "diaDiem": "Vĩnh Phúc, huyện Lập Thạch",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Hội Xuân núi Bà",
     "ngayBatDau": "4/1",
     "lanDauToChuc": "",
     "diaDiem": "Tây Ninh, Núi Bà Đen",
-    "tenNhanVat": [
+    "nhanVat": [
       "Linh Sơn Thánh Mẫu"
     ]
   },
@@ -157,7 +160,7 @@
     "ngayBatDau": "10/2",
     "lanDauToChuc": "thế kỷ 17",
     "diaDiem": "Hà Nội, Hồ Tây",
-    "tenNhanVat": [
+    "nhanVat": [
       "Uy Linh Lang",
       "Vương Duy",
       "Vương Ba"
@@ -168,7 +171,7 @@
     "ngayBatDau": "10/2",
     "lanDauToChuc": "",
     "diaDiem": "Hà Nội, Đông Anh",
-    "tenNhanVat": [
+    "nhanVat": [
       "Minh Mỗ Đại vương Thượng đẳng thần"
     ]
   },
@@ -177,7 +180,7 @@
     "ngayBatDau": "19/2",
     "lanDauToChuc": "năm 1960",
     "diaDiem": "Đà Nẵng, Ngũ Hành Sơn",
-    "tenNhanVat": [
+    "nhanVat": [
       "Quán Thế Âm Bồ Tát"
     ]
   },
@@ -186,21 +189,21 @@
     "ngayBatDau": "",
     "lanDauToChuc": "Nhà Thanh",
     "diaDiem": "",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Hội đua voi",
     "ngayBatDau": "",
     "lanDauToChuc": "",
     "diaDiem": "Tây Nguyên",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Tết Hàn thực",
     "ngayBatDau": "3/3",
     "lanDauToChuc": "Nhà Lê",
     "diaDiem": "",
-    "tenNhanVat": [
+    "nhanVat": [
       "Giới Tử Thôi",
       "Tấn Văn Công"
     ]
@@ -210,7 +213,7 @@
     "ngayBatDau": "3/3",
     "lanDauToChuc": "",
     "diaDiem": "Nam Định, Vụ Bản",
-    "tenNhanVat": [
+    "nhanVat": [
       "Mẫu Liễu Hạnh"
     ]
   },
@@ -219,7 +222,7 @@
     "ngayBatDau": "2/3",
     "lanDauToChuc": "thế kỷ 16",
     "diaDiem": "Thừa Thiên Huế, huyện Hương Trà",
-    "tenNhanVat": [
+    "nhanVat": [
       "Thiên Y A Na"
     ]
   },
@@ -228,7 +231,7 @@
     "ngayBatDau": "3/3",
     "lanDauToChuc": "",
     "diaDiem": "Hà Tây, Quốc Oai",
-    "tenNhanVat": [
+    "nhanVat": [
       "Từ Đạo Hạnh"
     ]
   },
@@ -237,7 +240,7 @@
     "ngayBatDau": "6/3",
     "lanDauToChuc": "Nhà Lý",
     "diaDiem": "Ninh Bình, huyện Hoa Lư",
-    "tenNhanVat": [
+    "nhanVat": [
       "Đinh Bộ Lĩnh"
     ]
   },
@@ -246,7 +249,7 @@
     "ngayBatDau": "14/3",
     "lanDauToChuc": "Nhà Trần",
     "diaDiem": "Ninh Bình, huyện Hoa Lư",
-    "tenNhanVat": [
+    "nhanVat": [
       "Trần Thái Tông",
       "Trần Thánh Tông",
       "Trần Nhân Tông",
@@ -259,7 +262,7 @@
     "ngayBatDau": "8/3",
     "lanDauToChuc": "Thế kỉ 2 trước CN",
     "diaDiem": "Hưng Yên, huyện Ân Thi",
-    "tenNhanVat": [
+    "nhanVat": [
       "Lang Công",
       "Bảo Công",
       "Công chúa Hùng vương Lâu nương"
@@ -270,7 +273,7 @@
     "ngayBatDau": "10/3",
     "lanDauToChuc": "Nhà Đinh",
     "diaDiem": "Nhiều nơi ở Việt Nam",
-    "tenNhanVat": [
+    "nhanVat": [
       "Vua Hùng"
     ]
   },
@@ -279,7 +282,7 @@
     "ngayBatDau": "10/3",
     "lanDauToChuc": "",
     "diaDiem": "Hưng Yên, Phố Hiến",
-    "tenNhanVat": [
+    "nhanVat": [
       "Dương Quý Phi"
     ]
   },
@@ -288,7 +291,7 @@
     "ngayBatDau": "",
     "lanDauToChuc": "1/4/1958",
     "diaDiem": "Hải Phòng, huyện Cát Hải, Thị trấn Cát Bà",
-    "tenNhanVat": [
+    "nhanVat": [
       "Hồ Chí Minh"
     ]
   },
@@ -297,7 +300,7 @@
     "ngayBatDau": "7/4",
     "lanDauToChuc": "Thế kỉ 11 đời Lý Thái Tổ",
     "diaDiem": "Hà Nội, huyện Gia Lâm",
-    "tenNhanVat": [
+    "nhanVat": [
       "Thánh Gióng"
     ]
   },
@@ -306,7 +309,7 @@
     "ngayBatDau": "8/4",
     "lanDauToChuc": "624 trước CN",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": [
+    "nhanVat": [
       "Phật Tất Đạt Đa"
     ]
   },
@@ -315,21 +318,21 @@
     "ngayBatDau": "14/4",
     "lanDauToChuc": "",
     "diaDiem": "Nam Bộ",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ khao lề thế lính",
     "ngayBatDau": "18/3",
     "lanDauToChuc": "",
     "diaDiem": "Quảng Ngãi, huyện Lý Sơn",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội miếu Bà Chúa Xứ",
     "ngayBatDau": "23/4",
     "lanDauToChuc": "",
     "diaDiem": "Miếu Bà Chúa Xứ, Núi Sam, An Giang, Châu Đốc",
-    "tenNhanVat": [
+    "nhanVat": [
       "Bà Chúa Xứ"
     ]
   },
@@ -338,14 +341,14 @@
     "ngayBatDau": "5/5",
     "lanDauToChuc": "",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Thất Tịch",
     "ngayBatDau": "7/7",
     "lanDauToChuc": "",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": [
+    "nhanVat": [
       "Ngưu Lang",
       "Chức Nữ"
     ]
@@ -355,7 +358,7 @@
     "ngayBatDau": "15/7",
     "lanDauToChuc": "",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": [
+    "nhanVat": [
       "Bồ tát Mục Liên"
     ]
   },
@@ -364,28 +367,28 @@
     "ngayBatDau": "",
     "lanDauToChuc": "",
     "diaDiem": "Phan Thiết (Bình Thuận)",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội Katê",
     "ngayBatDau": "",
     "lanDauToChuc": "",
     "diaDiem": "Bình Thuận",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội chọi trâu",
     "ngayBatDau": "9/8",
     "lanDauToChuc": "",
     "diaDiem": "Hải Phòng, Đồ Sơn",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Tết Trung Thu",
     "ngayBatDau": "15/8",
     "lanDauToChuc": "Nhà Đường",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": [
+    "nhanVat": [
       "Hằng Nga",
       "Hậu Nghệ",
       "Đường Minh Hoàng",
@@ -397,7 +400,7 @@
     "ngayBatDau": "15/8",
     "lanDauToChuc": "",
     "diaDiem": "Hải Dương, huyện Chí Linh",
-    "tenNhanVat": [
+    "nhanVat": [
       "Trần Hưng Đạo"
     ]
   },
@@ -406,7 +409,7 @@
     "ngayBatDau": "15/8",
     "lanDauToChuc": "năm 1925",
     "diaDiem": "Tây Ninh, Tòa Thánh Tây Ninh",
-    "tenNhanVat": [
+    "nhanVat": [
       "Cao Quỳnh Cư",
       "Phạm Công Tắc",
       "Cao Hoài Sang",
@@ -418,14 +421,14 @@
     "ngayBatDau": "",
     "lanDauToChuc": "",
     "diaDiem": "Bình Thuận, Tiền Giang",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội AHDT Nguyễn Trung Trực",
     "ngayBatDau": "",
     "lanDauToChuc": "",
     "diaDiem": "Rạch Giá, Kiên Giang",
-    "tenNhanVat": [
+    "nhanVat": [
       "Nguyễn Trung Trực"
     ]
   },
@@ -434,7 +437,7 @@
     "ngayBatDau": "13/9",
     "lanDauToChuc": "Nhà Lý",
     "diaDiem": "Thái Bình, Vũ Thư",
-    "tenNhanVat": [
+    "nhanVat": [
       "Thiền sư Không Lộ"
     ]
   },
@@ -443,14 +446,14 @@
     "ngayBatDau": "15/10",
     "lanDauToChuc": "",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": []
+    "nhanVat": []
   },
   {
     "tenLeHoi": "Lễ hội đền Nguyễn Công Trứ",
     "ngayBatDau": "13/11",
     "lanDauToChuc": "Nhà Nguyễn",
     "diaDiem": "Ninh Bình, huyện Kim Sơn",
-    "tenNhanVat": [
+    "nhanVat": [
       "Nguyễn Công Trứ"
     ]
   },
@@ -459,7 +462,7 @@
     "ngayBatDau": "23/12",
     "lanDauToChuc": "",
     "diaDiem": "Nhiều quốc gia",
-    "tenNhanVat": [
+    "nhanVat": [
       "Thổ Công",
       "Thổ địa",
       "Thổ kỳ"

@@ -36,7 +36,7 @@ public class EventCrawler extends Crawler{
                     String linkToDetail = aElement.attr("href");
                     Document detailDoc = request(END_POINT + linkToDetail);
                     String dienBien = "", tenDiaDiem = "";
-                    List<String> tenNhanVat = new ArrayList<>();
+                    List<String> nhanVat = new ArrayList<>();
 
                     if (detailDoc != null) {
                         Elements headerElements = detailDoc.select(".divide-line");
@@ -54,12 +54,13 @@ public class EventCrawler extends Crawler{
                                 Elements personCards = headerElement.nextElementSiblings().select(".card");
                                 for (Element personCard : personCards) {
                                     String personName = personCard.select(".click").text();
-                                    tenNhanVat.add(handleString(personName)[0]);
+                                    nhanVat.add(handleString(personName)[0]);
                                 }
                             }
                         }
                     }
-                    Event item = new Event(tenSuKien, thoiGian, tenDiaDiem, dienBien, tenNhanVat);
+                    Event<String, String> item = new Event<String, String>(tenSuKien, thoiGian,
+                            tenDiaDiem, dienBien, nhanVat);
                     list.add(item);
                 }
             }
