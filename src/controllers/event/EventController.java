@@ -43,7 +43,6 @@ public class EventController extends LayoutController implements Initializable, 
             FileReader reader = new FileReader("src/data/sukien.json");
             List<Event<String, String>> events1 = gson.fromJson(reader, EVENT_LIST_TYPE);
             List<Event<Person, Place>> events2 = new ArrayList<>();
-            System.out.println(events1.get(0).getTenSuKien());
             for (Event<String, String> event : events1) {
                 List<Person> relatedPerson = MatchingData.getRelatedPerson(event.getNhanVat());
                 Place place = MatchingData.getRelatedPlace(event.getDiaDiem());

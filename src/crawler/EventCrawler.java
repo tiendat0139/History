@@ -23,7 +23,7 @@ public class EventCrawler extends Crawler{
     @Override
     public void crawler(String url) {
         Document doc = request(url);
-        List<Event> list = new ArrayList<>();
+        List<Event<String, String>> list = new ArrayList<>();
         if(doc != null) {
             Elements cardElements = doc.select(".card");
             for (Element cardElement : cardElements) {
